@@ -1,0 +1,37 @@
+body {
+    background-color: #1e1e1e; /* Fondo negro */
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    background: linear-gradient(135deg, #6a0dad, #8b008b); /* Degradado púrpura */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50px; /* Botón redondeado */
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #8b008b, #6a0dad); /* Invertir los colores del degradado al pasar el mouse */
+}
+
+button:focus {
+    outline: none;
+}
